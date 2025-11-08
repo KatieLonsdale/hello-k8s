@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: hello-k8s
+data:
+  APP_MESSAGE: "Hello from K8s via ConfigMap"
